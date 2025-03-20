@@ -1,0 +1,92 @@
+.App {
+  text-align: center;
+}
+
+.header{
+  background-color: #01140b;
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vh;
+  color: white;
+  margin: 2%;
+  border-radius:2%;
+}
+
+.choose-file-button {
+  padding: 2px;
+  margin: 15px 20px;
+  font-size: 20px;
+  cursor: pointer;
+  width: auto;
+  height: 30px;
+  color: black;
+  background-color: rgb(219, 229, 211);
+  border-radius: 2.7%;
+}
+
+.choose-file-button:hover {
+  background-color: #93c79d;
+}
+
+.display-all-button {
+  padding: 10px 20px;
+  margin: 0.5%;
+  font-size: 20px;
+  background-color: maroon;
+  color: white;
+  border-color: pink;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.display-all-button:hover {
+  background-color: pink;
+  transform: scale(1.1);
+}
+
+.search-bar {
+  outline: black;
+  padding: 0.7%;
+  margin-left: 5%;
+  font-size: 20px;
+  border-radius: 20px;
+  font-family: Arial;
+  width:25%;
+}
+
+.search-button {
+  padding: 7px;
+  margin: 0.5%;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border-color: black;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.1s ease;
+}
+.search-button:hover {
+  background-color: #838383;
+  transform: scale(1.1);
+}
+
+.transcribe-button {
+    padding: 10px 20px;
+    margin: 0.5%;
+    font-size: 20px;
+    color: white;
+    background-color: #007d5e;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.15s ease;
+  }
+
+.transcribe-button:hover {
+  background-color: #09d386;
+  transform: scale(1.05);
+}
